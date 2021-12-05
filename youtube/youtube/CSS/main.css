@@ -1,0 +1,83 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+    background-color: white;
+    box-sizing: border-box;
+}
+#header .h-left{
+    display: flex;
+    align-items: center;
+}
+#header .h-left img{
+    width: 100px;
+    margin-left: 0.5rem;
+}
+#header .h-left span{
+    cursor: pointer;
+    padding:0 7px ;
+}
+#header .h-search{
+    display: flex;
+    align-items: center;
+}
+#header .h-search form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 10px;
+}
+#header .h-search input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 0px;
+}
+#header .h-search button{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    width: 40px;
+
+}
+#header .h-right {
+    display: flex;
+    align-items: center;
+    
+}
+#header .h-right button{
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: darkcyan;
+}
+#header .h-right button span{
+    color:coral;
+    margin-right: 10px;
+}
+#sidebar{
+    height: 1000%;
+    width: 230px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+}
+#sidebar .sidebar_categories{
+    margin-top: 20px;
+}
